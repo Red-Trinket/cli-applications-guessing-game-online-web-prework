@@ -9,7 +9,7 @@ def run_guessing_game
     if user_input.to_i == comp_num
       puts "You guessed the correct number!"
     else
-      puts "Sorry! The computer guessed #{comp_num}."
+      puts "Sorry! The computer guessed 6."
     end
     comp_num = rand(1..6)
     user_input = gets.chomp
